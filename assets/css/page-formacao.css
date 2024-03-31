@@ -1,0 +1,48 @@
+.menu-Formacao::before {
+    /* Indicador da página atual */
+    content: "•";
+    padding-right: 3px;
+    color: #e3a621;
+}
+
+.formacao {
+    margin-bottom: 40px;
+}
+
+.curriculo {
+    display: flex;
+    flex-direction: column;
+}
+
+.areaTitulo {
+    display: flex;
+
+}
+
+.texto {
+    padding-top: 95px;
+}
+
+.imagemLateral {
+    display: flex;
+    justify-content: end;
+}
+
+.imagemLateral img {
+    width: 80%;
+    transform: rotate(-18deg);
+}
+
+
+
+.infosFormacao {
+    margin-top: -20px;
+}
+
+.titulosTopicos {
+    padding: 15px 0;
+}
+
+.infosTopicos {
+    padding-left: 18px;
+}

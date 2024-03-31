@@ -1,0 +1,152 @@
+.menu-SobreMim::before {
+    /* Indicador da página atual */
+    content: "•";
+    padding-right: 3px;
+    color: #e3a621;
+}
+
+/* ÁREA APRESENTAÇÃO */
+.areaApresentacao {
+    flex: 3;
+    display: flex;
+    height: auto;
+    padding: 130px 0;
+}
+
+.areaBackground img {
+    width: 45%;
+    position: absolute;
+    z-index: -1;
+    right: 15%;
+}
+
+.titulo {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.meuNome {
+    font-family: "Zeyada", cursive;
+    font-size: 99px;
+}
+
+/* ================================== */
+
+/* SEÇÃO SOBRE MIM */
+
+.sobreMim {
+    padding: 70px 0 50px 0;
+}
+
+.conteudoSobreMim {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobreMim p {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.areaHobbys {
+    padding-top: 70px;
+}
+
+.hobbys {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.listaHobbys {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0 5%;
+}
+
+.listaHobbys li {
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #101010;
+}
+
+.listaHobbys li::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: linear-gradient(90deg, #3485FD, #A446D4);
+    margin: -2px;
+    border-radius: 10px;
+}
+
+/* ================================== */
+
+
+/* OCUPAÇÃO */
+
+.ocupacao {
+    padding: 40px 0 0 0;
+}
+
+.backgroundOcupacao {
+    display: flex;
+    justify-content: right;
+}
+
+.backgroundOcupacao img {
+    width: 100%;
+}
+
+/* ================================== */
+
+/* SONHO */
+
+.sonho {
+    padding: 50px 30px 70px 30px;
+}
+
+.areaSonho {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 1600px) {
+    .areaBackground img {
+        width: 32%;
+        top: 0;
+        right: 25%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .areaBackground img {
+        width: 60%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .areaBackground img {
+        width: 75%;
+        right: -5%;
+    }
+}
+@media (max-width: 425px) {
+    .titulo {
+        font-size: 30px;
+    }
+    
+    .meuNome {
+        font-family: "Zeyada", cursive;
+        font-size: 60px;
+    }
+}
