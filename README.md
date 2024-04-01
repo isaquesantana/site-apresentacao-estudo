@@ -1,1 +1,1 @@
-Visualizar: [https://isaquesantana.github.io/site-apresentacao-estudo/](url)
+Visualizar: https://isaquesantana.github.io/site-apresentacao-estudo/
